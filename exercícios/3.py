@@ -1,7 +1,8 @@
 import json
 
 dados_json = """ 
-[
+{
+    "faturamento_mensal": [
 	{
 		"dia": 1,
 		"valor": 22174.1664
@@ -123,6 +124,8 @@ dados_json = """
 		"valor": 8414.61
 	}
 ]
+}
+
 """
 
 dados = json.loads(dados_json)
